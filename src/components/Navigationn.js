@@ -1,11 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "./Navigation.css";
 
 function Navigation(){
     return (
         <nav>
-            <ul class="nav-container"> 
+            <ul> 
                 <li class="nav-item2"><a>소상공인을 위한 웹서비스</a></li>
                 <li class="nav-item"><a><Link to="/main">Home</Link></a></li>
                 <li class="nav-item"><a><Link to="/store">Street Store</Link></a></li>
@@ -17,4 +16,4 @@ function Navigation(){
     )
 }
 
-export default Navigation;
+export default Navigationn;
